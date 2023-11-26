@@ -1,4 +1,3 @@
-
 def filter_long_words(word_list, n):
     longer_words = [word for word in word_list if len(word) > n]
     return longer_words
@@ -14,4 +13,4 @@ words_list = words_input.split()
 result = filter_long_words(words_list, threshold_length_input)
 
 # Print the result
-print(f"Words longer than {threshold_length_input} characters: {result}")
+print("Words longer than {threshold_length_input} characters: {result}")
